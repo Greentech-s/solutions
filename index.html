@@ -5,56 +5,118 @@
 <style>
 body{
 margin:0;
-font-family: Arial, sans-serif;
-text-align:center;
-background-color:#eafaf1;
+font-family:Arial;
 }
 
-header{
-background-color:#0a5c36;
+.top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:green;
 color:white;
 padding:20px;
 }
 
-section{
-padding:40px;
+.logo img{
+width:100px;
 }
 
-h1{
-margin:0;
+.company-name{
+text-align:center;
+flex:1;
+font-size:28px;
+font-weight:bold;
+}
+
+.right-side{
+text-align:center;
+}
+
+.right-side img{
+width:80px;
+height:80px;
+display:block;
+margin:auto;
+margin-bottom:10px;
+}
+
+nav{
+background:#004d00;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-weight:bold;
+}
+
+.middle{
+padding:40px;
+text-align:center;
+}
+
+.box{
+border:2px solid green;
+padding:15px;
+margin:15px;
+display:inline-block;
+width:200px;
 }
 
 footer{
-background-color:#0a5c36;
+background:green;
 color:white;
-padding:15px;
+text-align:center;
+padding:10px;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>GreenTech Solutions</h1>
-<p>Innovative & Sustainable Technology Services</p>
-</header>
+<div class="top">
+<div class="logo">
+<img src="logo.png" alt="Company Logo">
+</div>
 
-<section>
-<h2>About Us</h2>
-<p>GreenTech Solutions provides eco-friendly and smart technology services for modern businesses.</p>
+<div class="company-name">
+GreenTech Solutions
+</div>
 
-<h2>Our Services</h2>
-<p>• Renewable Energy Solutions</p>
-<p>• IT & Software Services</p>
-<p>• Smart Infrastructure</p>
+<div class="right-side">
+<img src="chairman.jpg" alt="Chairman">
+<p>Chairman Name</p>
 
-<h2>Contact Us</h2>
-<p>Email: info@greentechsolutions.com</p>
-<p>Phone: +91 XXXXX XXXXX</p>
-</section>
+<img src="manager.jpg" alt="Manager">
+<p>Manager Name</p>
+</div>
+</div>
+
+<nav>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="middle">
+
+<div class="box">Products</div>
+<div class="box">Images</div>
+<div class="box">Customers</div>
+
+<br><br>
+
+<div class="box">Eco Friendly</div>
+<div class="box">All Over India Service & Sales</div>
+<div class="box">Contact</div>
+
+</div>
 
 <footer>
-© 2026 GreenTech Solutions. All Rights Reserved.
+© 2026 GreenTech Solutions
 </footer>
 
 </body>
